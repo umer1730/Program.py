@@ -15,9 +15,9 @@ main()
   cin>>aggregate;
   cout<<"Enter your section:";
   cin>>section;
-  cout<<"Student Informtion:";
-  cout<<"Name:"<< name;
-  cout<<"Rollnumber:"<< rollnumber;
-  cout<<"Aggregate:"<< aggregate;
-  cout<<"Section:"<< section;
+  cout<<"Student Informtion:"<<endl;
+  cout<<"Name:"<< name<<endl;
+  cout<<"Rollnumber:"<< rollnumber<<endl;
+  cout<<"Aggregate:"<< aggregate<<endl;
+  cout<<"Section:"<< section<<endl;
 }

@@ -7,7 +7,7 @@ main()
  float current;
  cout<<"Enter voltage:";
  cin>>voltage;
- cout<<"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Enter current:";
+ cout<<"Enter current:";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Enter current:";
  cin>>current;
  int power;
  power = voltage / current;
