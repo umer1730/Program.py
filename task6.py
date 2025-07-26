@@ -12,4 +12,3 @@ while True:
    print(number)
    if not number > 0:
       break
-   
