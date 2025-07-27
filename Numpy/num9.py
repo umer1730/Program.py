@@ -13,7 +13,15 @@ arr2 = np.array([5,6,7,8])
 new_arr = np.concatenate((arr1,arr2))
 print(new_arr)
 print("-------------")
-
+print()
+# concatenate 2d
+import numpy as np
+arr1 = np.array([[1,2,],[3,4]])
+arr2 = np.array([[5,6],[7,8]])
+new_arr = np.concatenate((arr1,arr2),axis = 1)   # if axis not written then automatically mean o which is col
+print(new_arr)
+print("-------------")
+print()
 # flatten array
 import numpy as np
 arr = np.array([10,20,30,40])
