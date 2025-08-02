@@ -6,6 +6,7 @@ for i in arr:
     print(i) 
 print("-----------")
 print()
+
 # 2D
 arr_2 = np.array([[1,2,3],[4,5,6]])
 print(arr_2)
@@ -13,6 +14,7 @@ print()
 for j in arr_2:
     print(j)
 print()
+
 # if you want in a row
 arr_2 = np.array([[1,2,3],[4,5,6]])
 print(arr_2)
@@ -25,6 +27,7 @@ for k in arr_2:
         print(l)
 print("--------")
 print()
+
 # 3D
 arr_3 = np.array([[[1,2],[3,4],[5,6]]])
 print(arr_3)
@@ -36,6 +39,7 @@ for i in arr_3:
             print(k)
 print("---------")
 print()
+
 arr_3 = np.array([[[1,2],[3,4],[5,6]]])
 print(arr_3)
 print(arr_3.ndim)

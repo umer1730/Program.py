@@ -21,9 +21,9 @@ print()
 import numpy as np
 var = np.array([1,2,3,4,5])
 co = var.copy() 
-var[1] = 40         # var data changes copy does not 
-print("var: ",var)
-print("copy: ",co)
+var[1] = 40         # put 40 in first index
+print("var: ",var)  #var data changes
+print("copy: ",co)  #copy does not
 print()
 
 x = np.array([3,4,5,6])

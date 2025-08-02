@@ -36,6 +36,7 @@ alpha = np.array(["s","a","d","n"])
 print(np.sort(arr))
 print(np.sort(alpha))
 print()
+
 # 2d
 import numpy as np
 arr = np.array([[1,2,33,4],[22,61,72,7]])

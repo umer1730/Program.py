@@ -1,0 +1,7 @@
+name=input("Enter name:")
+roll_no=int(input("Enter roll no:"))
+matric=int(input("Enter matric marks:"))
+inter=int(input("Enter inter marks:"))
+ecat=int(input("Enter Ecat marks:"))
+aggregate = (matric/1100*10)+(inter/550*40)+(ecat/400*50)
+print(f"Total aggregate for {name},roll no{roll_no} is:{aggregate}")
