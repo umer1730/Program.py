@@ -1,0 +1,16 @@
+print("---------------------------------")
+print("#        Subhani's Flat         #")
+print("---------------------------------")
+rent = int(input("Enter the flat rent:"))
+gas_bill = int(input("Enter the gas bill amount:"))
+electric_bill = int(input("Enter the electricity bill amount:"))
+food = int(input("Enter the food bill amount:"))
+garbage = int(input("Enter the garbage bill:"))
+water = int(input("Enter the water amount:"))
+wasa = int(input("Enter the wasa bill:"))
+internet = int(input("Enter the internet bill:"))
+person = int(input("Enter the total persons:"))
+total = rent + gas_bill + electric_bill + food + garbage + water + wasa + internet
+avg = total / person
+print(f"Total amount is = Rs.{total}")
+print(f"Each person will pay = Rs.{avg}")
