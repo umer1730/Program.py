@@ -56,3 +56,4 @@ elif day == "Monday":
     print("Payable amount : $",b)
 else:
     print("Invalid day")
+
