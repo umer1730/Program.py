@@ -48,5 +48,5 @@ else:
 
 print()
 print("-----2")
-print()
+print("-----------")
 
