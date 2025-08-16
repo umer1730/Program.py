@@ -13,5 +13,5 @@ name = df["Name"]
 print(name)
 # and if we want salary
 subset = df[["Name","Salary"]]
-print("\nSubset with Name and Salary")
+print("Subset with Name and Salary")
 print(subset)

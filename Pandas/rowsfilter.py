@@ -6,6 +6,8 @@ data = {
     "Performance score":[100,200,300,400,500,600]
 }
 df = pd.DataFrame(data)
+print(df)
+print()
 high_salary = df[df["Salary"] > 2500]
 print("Employee's with salary greater then 2500")
 print(high_salary)
