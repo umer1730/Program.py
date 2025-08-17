@@ -16,3 +16,11 @@ print("---------")
 # df.insert(loc,"column name",some_data)
 df.insert(0,"Employee ID",[1,2,3,4,5,6])
 print(df)
+
+print()
+print("--------------")
+
+import pandas as pd     # give own index name
+a = [1, 7, 2]
+myvar = pd.Series(a, index = ["x", "y", "z"])
+print(myvar)

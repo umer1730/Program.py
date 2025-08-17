@@ -12,3 +12,17 @@ print("---------------")
 #df.drop(columns = ["ColumnName"], inplace=True)
 df.drop(columns=["Performance score","Age"],inplace=True)
 print(df)
+
+print()
+print("-----------")
+import pandas as pd
+
+# Create a sample DataFrame with remove duplicate rows
+data = {'col1': [1, 2, 3, 2, 4, 3],
+        'col2': ['A', 'B', 'C', 'B', 'D', 'C']}
+df = pd.DataFrame(data)
+print("Original DataFrame:")
+print(df)
+df_cleaned = df.drop_duplicates()
+print("DataFrame after removing duplicates:")
+print(df_cleaned)
