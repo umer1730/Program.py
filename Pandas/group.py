@@ -8,3 +8,9 @@ data = {
 df = pd.DataFrame(data) 
 grouped = df.groupby("Age")["Salary"].sum()
 print(grouped)
+
+print()
+print('----------------')
+
+df = df.rename(columns={'Name':'student','Age':'Ages','Salary':'Pay'})
+print(df)
