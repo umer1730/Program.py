@@ -20,7 +20,17 @@ print(df)
 print()
 print("--------------")
 
-import pandas as pd     # give own index name
+# The import statement is already at the top of your file, so you don't need to import pandas again here.
+# If you are still getting "Import 'pandas' could not be resolved from source", try the following steps:
+# 1. Make sure pandas is installed: pip install pandas
+# 2. Restart your code editor or IDE.
+# 3. Check your Python interpreter/environment settings to ensure pandas is installed in the correct environment.
+# 4. If using VS Code, select the correct Python interpreter (bottom left corner or Ctrl+Shift+P > Python: Select Interpreter).
+
+# The code below demonstrates creating a pandas Series with a custom index.
+a = [1, 7, 2]
+myvar = pd.Series(a, index = ["x", "y", "z"])
+print(myvar)
 a = [1, 7, 2]
 myvar = pd.Series(a, index = ["x", "y", "z"])
 print(myvar)
