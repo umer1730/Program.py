@@ -6,7 +6,7 @@ print(a * b)
 print(a / b)
 print(a // b)
 print(a % b) 
-
+print(a**b)
 # next level
 student_1 = [50,60,70]
 sum_of_marks = sum(student_1)
