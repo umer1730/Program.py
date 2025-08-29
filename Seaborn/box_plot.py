@@ -15,7 +15,7 @@ sns.set(style='whitegrid')
 sns.boxplot(x='day',y='total_bill',data=var,hue='sex')
 plt.show()
 
-# add color para for chnage color
+# add color para for change color
 sns.set(style='whitegrid') 
 sns.boxplot(x='day',y='total_bill',data=var,hue='sex',color="g")
 plt.show()
@@ -53,7 +53,7 @@ plt.show()
 # orient para ke through hm inko  hor aur ver bna skte ha
 sns.set(style='whitegrid') 
 sns.boxplot(x='day',y='total_bill',data=var,hue='sex',color="g",order=["Fri",'Sun','Thu','Sat'],showmeans=True,meanprops={'marker':'o','markeredgecolor':'b'},linewidth=4,palette='plasma',orient='v')
-plt.show()  # hor me hm tb hi kr skte ha jb hmare pass x axis me string type ka data hona chahiye aur y axis me numeric data  
+plt.show()  # hor  hm tb hi kr skte ha jb hmare pass x axis me string type ka data hona chahiye aur y axis me numeric data  
 
 # like is tarah
 # now this  show hor

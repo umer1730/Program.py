@@ -70,7 +70,7 @@ order_1=["Dream","Torgersen","Biscoe"]
 sns.barplot(x="island",y ="bill_length_mm",data=var,hue='sex',order=order_1,hue_order=["Female","Male"],orient="v",saturation=10,errcolor='y',errwidth=10)
 plt.show()
 
-# add capsize 
+# add capsize for create cap
 order_1=["Dream","Torgersen","Biscoe"]
 sns.barplot(x="island",y ="bill_length_mm",data=var,hue='sex',order=order_1,hue_order=["Female","Male"],orient="v",saturation=10,errcolor='b',capsize=1)
 plt.show()

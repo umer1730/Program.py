@@ -7,7 +7,7 @@ class Student:
         self.roll_no=roll_no
         self.team = team
 
-    def display(self):
+    def display(self):  # method
         print(f"Name: {self.name} \nAge: {self.age} \nGrade: {self.grade} \nRoll no: {self.roll_no} \nTeam: {self.team}")
 # we can add another variable in this like team
 team1 = 'A'  
