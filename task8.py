@@ -9,6 +9,3 @@ print(Fibonacci(6))
 Fibonacci(5)
 
 
-# triangle
-def lines():
-    line = int(input)
