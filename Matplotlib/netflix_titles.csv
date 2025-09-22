@@ -1,0 +1,9 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description
+s1,Movie,Inception,Christopher Nolan,Leonardo DiCaprio,United States,September 1, 2010,2010,PG-13,148 min,"Sci-Fi, Thriller","A thief steals corporate secrets through dream-sharing technology."
+s2,TV Show,Stranger Things,,"Millie Bobby Brown",United States,July 15, 2016,2016,TV-14,3 Seasons,"Sci-Fi, Horror","A group of young friends witness supernatural forces and secret experiments."
+s3,Movie,Parasite,Bong Joon Ho,Song Kang-ho,South Korea,May 30, 2019,2019,R,132 min,"Thriller, Drama","Greed and class discrimination threaten the relationship between two families."
+s4,TV Show,Dark,Baran bo Odar,Louis Hofmann,Germany,December 1, 2017,2017,TV-MA,3 Seasons,"Sci-Fi, Mystery","A family saga with a supernatural twist."
+s5,Movie,The Irishman,Martin Scorsese,Robert De Niro,United States,November 27, 2019,2019,R,209 min,"Crime, Drama","An old hitman recalls his career and involvement with organized crime."
+s6,Movie,Spirited Away,Hayao Miyazaki,Chihiro Ogino,Japan,July 20, 2001,2001,PG,125 min,"Animation, Fantasy","A young girl enters a world of spirits and must find her way back."
+s7,TV Show,Money Heist,Álex Pina,Úrsula Corberó,Spain,May 2, 2017,2017,TV-MA,5 Seasons,"Crime, Thriller","A criminal mastermind plans the biggest heist in recorded history."
+s8,Movie,Avengers: Endgame,Anthony Russo,Robert Downey Jr.,United States,April 26, 2019,2019,PG-13,181 min,"Action, Adventure","The Avengers assemble once more to reverse the damage caused by Thanos."
